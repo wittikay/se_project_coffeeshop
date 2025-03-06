@@ -14,11 +14,57 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-<div class="page">
-  Testing...
-  <header class="header"></header>
+<div
+class="page">
+<header class="header">
+
+  <div class="nav">
+   <div class="nav__logo">
+    <img src="/images/logo_coffeeshop_dark.svg" alt="A black logo that says 'Triple Espresso.'">
+   </div>
+    <div class="nav__links">
+      <a class="nav__link" href="#recipes">Recipes</a>
+      <a class="nav__link" href="#book-a-table">Book a Table</a>
+      <a class="nav__link" href="#menu">Menu</a>
+      <a class="nav__link" href="#about">Contacts</a>
+    </div>
+</div>
+
+  <img
+  src="/images/inside_coffee_shop.png"
+  alt="An isometric illustration of a coffee shop, the barista has multiple robotic helping hands assisting them, and there is an individual sitting at a table."
+  class="header__image">
+  <h1 class="header__title"><span class="header__span-accent">Specialty Coffee</span> in the Triple Peaks Library</h1>
+  <h2 class="header__description">Welcome to our study zone! We've got the coffee to energize you and the cozy vibes to help you get creative.</h2>
+  <div class="header__footer">
+    <div class="footer-hours">
+    <p class="footer-item">Hours</p>
+    <p class="footer-item">Monday - Friday (10:00 - 19:00)</p>
+    <p class="footer-item">Saturday - Sunday (11:00 - 18:00)</p>
+  </div>
+    <p class="footer-address">200 Success Avenue, The Town of Triple Peaks</p>
+</div>
+</header>
   <main class="content">
-    <section class="recipes"></section>
+    <section class="recipes" id="recipes">
+      <div class="recipes__header">
+      <div class="recipes__title">Recipes</div>
+      <div class="recipes__subtitle">Check out some recipes we've collected for
+        your home-brewing convenience:</div>
+      </div>
+        <div class="recipes__videos">
+          <div class="recipes__video-container">
+          <iframe class="recipe__video-box" src="https://www.youtube.com/embed/j6VlT_jUVPc?si=YeJl9bNuj4F7WVGa" title="Aerospace recipe" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <p class="video-subtitle">Aeropress recipe</p>
+        </div>
+        <div class="recipes__video-container">
+          <iframe class="recipe__video-box" src="https://www.youtube.com/embed/st571DYYTR8?si=E-kvE236uSoEkURg" title="French press recipe" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <p class="video-subtitle">French press recipe</p>
+        </div>
+        </div>
+        <div class="recipes__iframe"></div>
+        <div class="recipes__video-caption"></div>
+    </section>
     <section class="reservation"></section>
     <section class="menu"></section>
     <section class="about"></section>
