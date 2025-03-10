@@ -231,6 +231,43 @@
   border: none;
 }
 
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  max-width: 385px;
+  margin: 0 auto;
+
+  input {
+    min-width: 385px;
+    padding: 15px 20px;
+    box-sizing: border-box;
+    border-radius: 4px;
+  }
+
+  label {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  button {
+    width: 385px;
+    padding: 15px 20px;
+    border-radius: 4px;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    background-color: #1878dc;
+  }
+}
+
 .reservation__form {
   display: flex;
   justify-content: center;
@@ -265,22 +302,12 @@
   gap: 8px;
 }
 
-.reservation__form-input {
-
-}
-
 .reservation__form-guests {
   border-radius: 4px;
   display: flex;
   flex-direction: column;
   gap: 8px;
 }
-
-.reservation__form-guests-input {
-
-
-}
-
 .reservation__form-date-time {
   display: flex;
   flex-direction: column;
@@ -288,7 +315,6 @@
 }
 
 .reservation__form-date-time-input {
-
 }
 
 .reservation__form-email {
@@ -296,19 +322,7 @@
   flex-direction: column;
   gap: 8px;
 }
-
 .reservation__form-button {
-  width: 385px;
-  padding: 15px 20px;
-  border-radius: 4px;
-  transition-property: background-color;
-  transition-duration: 0.5s;
-  font-family: Inter;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-  background-color: #1878dc;
 }
 
 .reservation__form-button:hover {
@@ -322,12 +336,14 @@
   gap: 12px;
   margin-top: 32px;
   padding-bottom: 120px;
+  max-width: none;
 }
 
-.reservation__form-checkbox-container input[type="checkbox"] {
-  appearance: none;
+.reservation__checkbox-container input[type="checkbox"] {
+  min-width: 20px;
   width: 20px;
   height: 20px;
+  margin: 0;
   background-image: url("/path/to/your/checkmark-image.svg");
   background-size: 80%;
   background-repeat: no-repeat;
@@ -340,4 +356,8 @@
 .reservation__form-checkbox-container input[type="checkbox"]:checked {
   background-image: url("/images/check.svg");
   background-color: #1878dc;
+}
+
+.reservation__form-checkbox-label {
+  white-space: nowrap;
 }
