@@ -213,7 +213,7 @@
   line-height: 52px;
 }
 
-.reservation__form_fieldset {
+.reservation__form__fieldset {
   display: flex;
   flex-direction: column;
   gap: 32px;
@@ -222,7 +222,7 @@
   border: none;
 }
 
-.reservation__form__form-items {
+.reservation__form__form__items {
   display: flex;
   flex-direction: column;
   gap: 32px;
@@ -252,13 +252,13 @@
   line-height: 30px;
 }
 
-.reservation__form__form-items input {
+.reservation__form__form__items input {
   min-width: 385px;
   padding: 15px 20px;
   box-sizing: border-box;
 }
 
-.reservation__form__name {
+.reservation__form__form__name {
   border-radius: 4px;
   display: flex;
   flex-direction: column;
