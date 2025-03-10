@@ -1,5 +1,5 @@
 # Triple Peaks Coffee Shop
-
+![Coffee Shop](./images/demo/Triple%20Peaks%20Coffee%20Project.png)
 This is the second project of the Software Engineering program at TripleTen. It was created using HTML and CSS, based on the design brief.
 
 ## Project features
