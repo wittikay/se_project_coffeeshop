@@ -237,15 +237,15 @@
   gap: 32px;
   max-width: 385px;
   margin: 0 auto;
-
-  input {
+}
+  .form input {
     min-width: 385px;
     padding: 15px 20px;
     box-sizing: border-box;
     border-radius: 4px;
   }
 
-  label {
+  .form label {
     font-family: Inter;
     font-style: normal;
     font-weight: 500;
@@ -253,7 +253,7 @@
     line-height: 20px;
   }
 
-  button {
+  .form button {
     width: 385px;
     padding: 15px 20px;
     border-radius: 4px;
@@ -266,7 +266,6 @@
     line-height: 20px;
     background-color: #1878dc;
   }
-}
 
 .reservation__form {
   display: flex;
