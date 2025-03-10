@@ -213,7 +213,7 @@
   line-height: 52px;
 }
 
-.reservation__form__fieldset {
+.reservation__form-fieldset {
   display: flex;
   flex-direction: column;
   gap: 32px;
@@ -222,7 +222,7 @@
   border: none;
 }
 
-.reservation__form__form__items {
+.reservation__form-items {
   display: flex;
   flex-direction: column;
   gap: 32px;
@@ -236,7 +236,7 @@
   justify-content: center;
 }
 
-.reservation__form__label {
+.reservation__form-label {
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
@@ -244,7 +244,7 @@
   line-height: 20px;
 }
 
-.placeholder {
+.reservation__input-placeholder {
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
@@ -252,39 +252,52 @@
   line-height: 30px;
 }
 
-.reservation__form__form__items input {
+.reservation__form-items input {
   min-width: 385px;
   padding: 15px 20px;
   box-sizing: border-box;
 }
 
-.reservation__form__form__name {
+.reservation__form-name {
   border-radius: 4px;
   display: flex;
   flex-direction: column;
   gap: 8px;
 }
 
-.reservation__form__guests {
+.reservation__form-input {
+
+}
+
+.reservation__form-guests {
   border-radius: 4px;
   display: flex;
   flex-direction: column;
   gap: 8px;
 }
 
-.reservation__form__date_time {
+.reservation__form-guests-input {
+
+
+}
+
+.reservation__form-date-time {
   display: flex;
   flex-direction: column;
   gap: 8px;
 }
 
-.reservation__form__email {
+.reservation__form-date-time-input {
+
+}
+
+.reservation__form-email {
   display: flex;
   flex-direction: column;
   gap: 8px;
 }
 
-.reservation__form__button {
+.reservation__form-button {
   width: 385px;
   padding: 15px 20px;
   border-radius: 4px;
@@ -298,11 +311,11 @@
   background-color: #1878dc;
 }
 
-.reservation__form__button:hover {
+.reservation__form-button:hover {
   background-color: #3f96f3;
 }
 
-.reservation__form__checkbox-container {
+.reservation__checkbox-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -311,7 +324,7 @@
   padding-bottom: 120px;
 }
 
-.reservation__form__checkbox-container input[type="checkbox"] {
+.reservation__form-checkbox-container input[type="checkbox"] {
   appearance: none;
   width: 20px;
   height: 20px;
@@ -324,7 +337,7 @@
   cursor: pointer;
 }
 
-.reservation__form__checkbox-container input[type="checkbox"]:checked {
+.reservation__form-checkbox-container input[type="checkbox"]:checked {
   background-image: url("/images/check.svg");
   background-color: #1878dc;
 }

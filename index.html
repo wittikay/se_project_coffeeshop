@@ -103,30 +103,30 @@
         <section class="reservation" id="reservation">
           <div class="reservation__title">Book a Table</div>
           <div class="reservation__form">
-            <fieldset class="reservation__form reservation__form_fieldset">
+            <fieldset class="reservation__form-fieldset">
               <!-- Container for the four form items -->
-              <div class="reservation__form__form-items">
-                <div class="reservation__form__name">
-                  <label for="name" class="label reservation__form__label"
+              <div class="reservation__form-items">
+                <div class="reservation__form-name">
+                  <label for="name" class="label reservation__form-label"
                     >Name</label
                   >
                   <input
                     id="name"
                     type="text"
-                    class="input reservation__form__name"
+                    class="input reservation__form-input"
                     placeholder="Name Surname"
                     required
                   />
                 </div>
 
-                <div class="reservation__form__guests">
-                  <label for="number" class="label reservation__form__label"
+                <div class="reservation__form-guests">
+                  <label for="number" class="label reservation__form-label"
                     >Number of guests</label
                   >
                   <input
                     id="number"
                     type="number"
-                    class="input reservation__form__guests"
+                    class="input reservation__form-guests-input"
                     placeholder="1-8"
                     min="1"
                     max="8"
@@ -134,47 +134,47 @@
                   />
                 </div>
 
-                <div class="reservation__form__date_time">
+                <div class="reservation__form-date-time">
                   <label
                     for="datetime-local"
-                    class="label reservation__form__label"
+                    class="label reservation__form-label"
                     >Date</label
                   >
                   <input
                     id="datetime-local"
                     type="datetime-local"
-                    class="input reservation__form__date_time"
+                    class="input reservation__form-date-time-input"
                     required
                   />
                 </div>
 
-                <div class="reservation__form__email">
-                  <label for="email" class="label reservation__form__label"
+                <div class="reservation__form-email">
+                  <label for="email" class="label reservation__form-label"
                     >Your email</label
                   >
                   <input
                     id="email"
                     type="email"
-                    class="input reservation__form__email"
+                    class="input reservation__form-email-input"
                     placeholder="email@email.com"
                     required
                   />
                 </div>
               </div>
               <!-- End of form items container -->
-              <button class="button reservation__form__button">
+              <button class="button reservation__form-button">
                 Book a table
               </button>
-              <div class="reservation__form__checkbox-container">
+              <div class="reservation__checkbox-container">
                 <input
                   type="checkbox"
-                  class="checkbox reservation__form__checkbox"
+                  class="checkbox reservation__form-checkbox"
                   id="checkbox"
                   required
                 />
                 <label
                   for="checkbox"
-                  class="label reservation__form__checkbox-label"
+                  class="label reservation__form-checkbox-label"
                   >I agree to the terms of use</label
                 >
               </div>
