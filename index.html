@@ -1,75 +1,191 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="The Twin Peaks Coffee Shop Website.">
-  <meta name="author" content="Karl Wilson">
-  <meta name="keywords" content="Coffee, Twin Peaks, Coffee Shop, Coffee Beans, Coffee Roasters, Coffee Blends, Coffee Shop Menu, Coffee Shop Locations, Coffee Shop Hours, Coffee Shop Contact Information, Karl Wilson">
-  <title>Twin Peaks Coffee</title>
-  <link rel="stylesheet" href="vendor/normalize.css">
-  <link rel="stylesheet" href="pages/index.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-</head>
-<body>
-<div
-class="page">
-<header class="header">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="The Twin Peaks Coffee Shop Website." />
+    <meta name="author" content="Karl Wilson" />
+    <meta
+      name="keywords"
+      content="Coffee, Twin Peaks, Coffee Shop, Coffee Beans, Coffee Roasters, Coffee Blends, Coffee Shop Menu, Coffee Shop Locations, Coffee Shop Hours, Coffee Shop Contact Information, Karl Wilson"
+    />
+    <title>Twin Peaks Coffee</title>
+    <link rel="stylesheet" href="vendor/normalize.css" />
+    <link rel="stylesheet" href="pages/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="page">
+      <header class="header">
+        <nav class="nav">
+          <div class="nav__logo">
+            <img
+              src="/images/logo_coffeeshop_dark.svg"
+              alt="A black logo that says 'Triple Espresso.'"
+            />
+          </div>
+          <div class="nav__links">
+            <a class="nav__link" href="#recipes">Recipes</a>
+            <a class="nav__link" href="#reservation">Book a Table</a>
+            <a class="nav__link" href="#menu">Menu</a>
+            <a class="nav__link" href="#about">Contacts</a>
+          </div>
+        </nav>
 
-  <nav class="nav">
-   <div class="nav__logo">
-    <img src="/images/logo_coffeeshop_dark.svg" alt="A black logo that says 'Triple Espresso.'">
-   </div>
-    <div class="nav__links">
-      <a class="nav__link" href="#recipes">Recipes</a>
-      <a class="nav__link" href="#reservation">Book a Table</a>
-      <a class="nav__link" href="#menu">Menu</a>
-      <a class="nav__link" href="#about">Contacts</a>
+        <img
+          src="/images/inside_coffee_shop.png"
+          alt="An isometric illustration of a coffee shop, the barista has multiple robotic helping hands assisting them, and there is an individual sitting at a table."
+          class="header__image"
+        />
+        <h1 class="header__title">
+          <span class="header__span-accent">Specialty Coffee</span> in the
+          Triple Peaks Library
+        </h1>
+        <p class="header__description">
+          Welcome to our study zone! We've got the coffee to energize you and
+          the cozy vibes to help you get creative.
+        </p>
+        <div class="header__footer">
+          <div class="header__footer-hours">
+            <p class="header__footer-item">Hours</p>
+            <p class="header__footer-item">Monday - Friday (10:00 - 19:00)</p>
+            <p class="header__footer-item">Saturday - Sunday (11:00 - 18:00)</p>
+          </div>
+          <p class="header__footer-address">
+            200 Success Avenue, The Town of Triple Peaks
+          </p>
+        </div>
+      </header>
+
+      <main class="content">
+        <!-- Recipes Section -->
+        <section class="recipes" id="recipes">
+          <div class="recipes__header">
+            <div class="recipes__title">Recipes</div>
+            <div class="recipes__subtitle">
+              Check out some recipes we've collected for your home-brewing
+              convenience:
+            </div>
+          </div>
+
+          <div class="recipes__videos">
+            <div class="recipes__video-container">
+              <iframe
+                class="recipes__iframe"
+                src="https://www.youtube.com/embed/j6VlT_jUVPc?si=YeJl9bNuj4F7WVGa"
+                title="Aerospace recipe"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
+              <p class="recipes__video-subtitle">Aeropress recipe</p>
+            </div>
+            <div class="recipes__video-container">
+              <iframe
+                class="recipes__iframe"
+                src="https://www.youtube.com/embed/st571DYYTR8?si=E-kvE236uSoEkURg"
+                title="French press recipe"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
+              <p class="recipes__video-subtitle">French press recipe</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- Reservation Section -->
+        <section class="reservation" id="reservation">
+          <div class="reservation__title">Book a Table</div>
+          <div class="reservation__form">
+            <fieldset class="reservation__form_fieldset">
+              <!-- Container for the four form items -->
+              <div class="reservation__form__form-items">
+                <div class="reservation__form__name">
+                  <label for="name" class="label reservation__form__label"
+                    >Name</label
+                  >
+                  <input
+                    id="name"
+                    type="text"
+                    class="input reservation__form__name"
+                    placeholder="Name Surname"
+                    required
+                  />
+                </div>
+
+                <div class="reservation__form__guests">
+                  <label for="number" class="label reservation__form__label"
+                    >Number of guests</label
+                  >
+                  <input
+                    id="number"
+                    type="number"
+                    class="input reservation__form__guests"
+                    placeholder="1-8"
+                    min="1"
+                    max="8"
+                    required
+                  />
+                </div>
+
+                <div class="reservation__form__date_time">
+                  <label
+                    for="datetime-local"
+                    class="label reservation__form__label"
+                    >Date</label
+                  >
+                  <input
+                    id="datetime-local"
+                    type="datetime-local"
+                    class="input reservation__form__date_time"
+                    required
+                  />
+                </div>
+
+                <div class="reservation__form__email">
+                  <label for="email" class="label reservation__form__label"
+                    >Your email</label
+                  >
+                  <input
+                    id="email"
+                    type="email"
+                    class="input reservation__form__email"
+                    placeholder="email@email.com"
+                    required
+                  />
+                </div>
+              </div>
+              <!-- End of form items container -->
+              <button class="button reservation__form__button">
+                Book a table
+              </button>
+              <div class="reservation__form__checkbox-container">
+                <input
+                  type="checkbox"
+                  class="checkbox reservation__form__checkbox"
+                  id="checkbox"
+                  required
+                />
+                <label
+                  for="checkbox"
+                  class="label reservation__form__checkbox-label"
+                  >I agree to the terms of use</label
+                >
+              </div>
+            </fieldset>
+          </div>
+        </section>
+
+        <section class="menu" id="menu"></section>
+        <section class="about" id="about"></section>
+      </main>
+      <footer class="footer"></footer>
     </div>
-  </nav>
-
-  <img
-  src="/images/inside_coffee_shop.png"
-  alt="An isometric illustration of a coffee shop, the barista has multiple robotic helping hands assisting them, and there is an individual sitting at a table."
-  class="header__image">
-  <h1 class="header__title"><span class="header__span-accent">Specialty Coffee</span> in the Triple Peaks Library</h1>
-  <p class="header__description">Welcome to our study zone! We've got the coffee to energize you and the cozy vibes to help you get creative.</p>
-  <div class="header__footer">
-    <div class="footer-hours">
-    <p class="footer-item">Hours</p>
-    <p class="footer-item">Monday - Friday (10:00 - 19:00)</p>
-    <p class="footer-item">Saturday - Sunday (11:00 - 18:00)</p>
-  </div>
-    <p class="footer-address">200 Success Avenue, The Town of Triple Peaks</p>
-</div>
-</header>
-  <main class="content">
-    <section class="recipes" id="recipes">
-      <div class="recipes__header">
-      <div class="recipes__title">Recipes</div>
-      <div class="recipes__subtitle">Check out some recipes we've collected for
-        your home-brewing convenience:</div>
-      </div>
-        <div class="recipes__videos">
-          <div class="recipes__videos-container">
-          <iframe class="recipes__iframe" src="https://www.youtube.com/embed/j6VlT_jUVPc?si=YeJl9bNuj4F7WVGa" title="Aerospace recipe" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-          <p class="video-subtitle">Aeropress recipe</p>
-        </div>
-        <div class="recipes__video-container">
-          <iframe class="recipes__iframe" src="https://www.youtube.com/embed/st571DYYTR8?si=E-kvE236uSoEkURg" title="French press recipe" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-          <p class="video-subtitle">French press recipe</p>
-        </div>
-        </div>
-        <div class="recipes__iframe"></div>
-        <div class="recipes__video-caption"></div>
-    </section>
-    <section class="reservation" id="reservation"></section>
-    <section class="menu" id="menu"></section>
-    <section class="about" id="about"></section>
-  </main>
-  <footer class="footer"></footer>
-</div>
-</body>
+  </body>
 </html>
