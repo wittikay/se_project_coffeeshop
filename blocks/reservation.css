@@ -43,7 +43,6 @@
   display: flex;
   flex-direction: column;
   gap: 32px;
-  max-width: 385px;
   align-items: center;
   border: none;
 }
@@ -94,17 +93,11 @@
   gap: 8px;
 }
 
-.reservation__form-date-time-input {
-}
-
 .reservation__form-email {
   display: flex;
   flex-direction: column;
   gap: 8px;
 }
-.reservation__form-button {
-}
-
 .reservation__form-button:hover {
   background-color: #3f96f3;
 }
@@ -124,16 +117,15 @@
   width: 20px;
   height: 20px;
   margin: 0;
-  background-image: url("/path/to/your/checkmark-image.svg");
+  background-image: url("/images/check.svg");
   background-size: 80%;
   background-repeat: no-repeat;
   background-position: center;
   border: 1px solid #ccc;
   border-radius: 4px;
-  cursor: pointer;
 }
 
-.reservation__form-checkbox-container input[type="checkbox"]:checked {
+.reservation__checkbox-container input[type="checkbox"]:checked {
   background-image: url("/images/check.svg");
   background-color: #1878dc;
 }
