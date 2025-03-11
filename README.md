@@ -1,3 +1,14 @@
+# Recent Updates:
+###
+* BEM naming for blocks and elements updated to conform to the naming convention.
+
+* Code formatted to adhere to proper indentation practices
+
+* "Reservation" section added, which includes:
+  * Animated background
+  * Reservation form to obtain relevant user data
+
+* README.md file created
 # Triple Peaks Coffee Shop
 ![Coffee Shop](./images/demo/Triple%20Peaks%20Coffee%20Project.png)
 This is the second project of the Software Engineering program at TripleTen. It was created using HTML and CSS, based on the design brief.
