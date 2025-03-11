@@ -1,5 +1,16 @@
 # Recent Updates:
 ###
+* Menu section added.
+
+* Footer section added.
+
+* CSS sections split into individual files for easier navigation of styling.
+
+* Code consistency improved.
+
+* README.md file updated to reflect changes (woah, this is meta).
+## Previous Updates:
+####
 * BEM naming for blocks and elements updated to conform to the naming convention.
 
 * Code formatted to adhere to proper indentation practices.
@@ -26,6 +37,8 @@ This is the second project of the Software Engineering program at TripleTen. It 
 
 1. I'd like to adjust the page to have a mobile layout as well, in case it is viewed from a mobile phone. Currently, the page elements may overlap each other if the width is reduced far enough.
 
-2. I'd like to improve the performance of the page. Currently, in the "Recipes" section, the animation I've applied to the background causes the page to stutter or drop framerate as it loads the element. For this, I will try and utilize at-rules and importing css for different blocks to try and improve performance.
+~~2. I'd like to improve the performance of the page. Currently, in the "Recipes" section, the animation I've applied to the background causes the page to stutter or drop framerate as it loads the element. For this, I will try and utilize at-rules and importing css for different blocks to try and improve performance.~~
+
+       - At-rules implemented, performance remains the same. Investigating new performance-enhancing methods.
 
 3. I do not like the default styling for the date-time form in the "Reservation" section, so I will like to adjust this with a custom styling once I learn how.
