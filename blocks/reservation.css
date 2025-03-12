@@ -1,6 +1,6 @@
 .reservation {
   background-color: #d9e7ff;
-  background-image: url(/images/background_reservation.svg);
+  background-image: url(../images/background_reservation.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -117,7 +117,7 @@
   width: 20px;
   height: 20px;
   margin: 0;
-  background-image: url("/images/check.svg");
+  background-image: url("../images/check.svg");
   background-size: 80%;
   background-repeat: no-repeat;
   background-position: center;
@@ -126,7 +126,7 @@
 }
 
 .reservation__checkbox-container input[type="checkbox"]:checked {
-  background-image: url("/images/check.svg");
+  background-image: url("../images/check.svg");
   background-color: #1878dc;
 }
 
