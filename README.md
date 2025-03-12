@@ -1,5 +1,7 @@
 # Recent Updates:
 ###
+* Updated README.md image to reflect current page state.
+
 * Changed absolute file paths to relative file paths to ensure images refer to the root of the project folder, and not the root of the system.
 
   - This change has improved site performance, as mentioned in the improvement section below.
@@ -26,7 +28,7 @@
 
 * README.md file created.
 # Triple Peaks Coffee Shop
-![Coffee Shop](./images/demo/Triple%20Peaks%20Coffee%20Project.png)
+![Coffee Shop](./images/demo/Triple%20Peaks%20Coffee%20Project%20Image.png)
 This is the second project of the Software Engineering program at TripleTen. It was created using HTML and CSS, based on the design brief.
 
 ## Project features
