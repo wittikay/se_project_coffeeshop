@@ -21,7 +21,6 @@
 }
 
 .nav__logo {
-  display: flex;
   padding-top: 30px;
   padding-right: 30px;
   min-width: 105px;
