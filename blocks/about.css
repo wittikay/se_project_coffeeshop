@@ -32,10 +32,11 @@
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
+  gap: 20px;
 }
 
 .about__paragraph {
-  gap: 20px;
+  margin: 0;
 }
 
 .about__circle {

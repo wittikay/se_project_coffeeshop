@@ -65,10 +65,10 @@
         <section class="recipes" id="recipes">
           <!-- Title & Subtitle -->
           <h2 class="recipes__title">Recipes</h2>
-          <h3 class="recipes__subtitle">
+          <p class="recipes__subtitle">
             Check out some recipes we've collected for your home-brewing
             convenience:
-          </h3>
+          </p>
           <!-- Title & Subtitle -->
           <!-- Videos & Video Subtitles -->
           <div class="recipes__videos">
@@ -85,9 +85,7 @@
               <!-- Video -->
               <!-- Video Subtitle -->
               <p class="recipes__video-subtitle">
-                Aeropress recipe<span class="recipes__video-length"
-                  >~5 min</span
-                >
+                Aeropress recipe<span>~5 min</span>
               </p>
               <!-- Video Subtitle -->
             </div>
@@ -104,9 +102,7 @@
               <!-- Video -->
               <!-- Video Subtitle -->
               <p class="recipes__video-subtitle">
-                French press recipe<span class="recipes__video-length"
-                  >~15 min</span
-                >
+                French press recipe<span>~15 min</span>
               </p>
               <!-- Video Subtitle -->
             </div>
@@ -121,7 +117,7 @@
           <!-- Reservation Title -->
           <form class="form reservation__form">
             <!-- Reservation Form w/o Buttons-->
-            <fieldset class="form form__fieldset">
+            <fieldset class="form__fieldset">
               <label for="name" class="form__label">Name</label>
               <input
                 id="name"
@@ -130,54 +126,46 @@
                 placeholder="Name Surname"
                 required
               />
+              <label for="number" class="form__label">Number of guests</label>
+              <input
+                id="number"
+                type="number"
+                class="form__input"
+                placeholder="1-8"
+                min="1"
+                max="8"
+                required
+              />
 
-              <div class="form__guests">
-                <label for="number" class="form__label">Number of guests</label>
-                <input
-                  id="number"
-                  type="number"
-                  class="form__input"
-                  placeholder="1-8"
-                  min="1"
-                  max="8"
-                  required
-                />
-              </div>
+              <label for="datetime-local" class="form__label">Date</label>
+              <input
+                id="datetime-local"
+                type="datetime-local"
+                class="form__input"
+                required
+              />
 
-              <div class="form__date-time">
-                <label for="datetime-local" class="form__label">Date</label>
-                <input
-                  id="datetime-local"
-                  type="datetime-local"
-                  class="form__input"
-                  required
-                />
-              </div>
-
-              <div class="form__label">
-                <label for="email" class="form__label">Your email</label>
-                <input
-                  id="email"
-                  type="email"
-                  class="form__input"
-                  placeholder="email@email.com"
-                  required
-                />
-              </div>
+              <label for="email" class="form__label">Your email</label>
+              <input
+                id="email"
+                type="email"
+                class="form__input"
+                placeholder="email@email.com"
+                required
+              />
             </fieldset>
             <!-- Reservation Form w/o Buttons-->
             <button class="form__button">Book a table</button>
-            <div class="form__checkbox">
-              <label for="checkbox" class="form__label_checkbox">
-                <input
-                  type="checkbox"
-                  class="form__input-checkbox"
-                  id="checkbox"
-                  required
-                />
-                I agree to the terms of use</label
-              >
-            </div>
+
+            <label for="checkbox" class="form__label_checkbox">
+              <input
+                type="checkbox"
+                class="form__input-checkbox"
+                id="checkbox"
+                required
+              />
+              I agree to the terms of use</label
+            >
           </form>
         </section>
 
@@ -244,7 +232,6 @@
                 </li>
               </ul>
             </div>
-
             <div class="card">
               <div class="card__title">Baked Goods</div>
               <ul class="card__list">
@@ -287,10 +274,10 @@
           <!-- About Title & Subtitle -->
           <h2 class="about__title">About the coffee shop</h2>
           <div class="about__content">
-            <div class="about__paragraph">
+            <p class="about__paragraph">
               Our coffee shop is located in the Triple Peaks Library. It
               features 6 tables and free WiFi.
-            </div>
+            </p>
             <p class="about__paragraph">
               Our main mission is keeping guests cozy and energized.
             </p>

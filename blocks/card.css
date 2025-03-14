@@ -25,6 +25,11 @@
   font-size: 16px;
   line-height: 20px;
   margin: 0;
+
+}
+
+.card__list-item:last-child {
+  padding-bottom: 0;
 }
 
 .card__list-divider {
@@ -32,5 +37,4 @@
   margin-right: 10px;
   flex-grow: 1;
   border-bottom: black 1px solid;
-  border-bottom-width: 1px;
 }
