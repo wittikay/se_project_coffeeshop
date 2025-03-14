@@ -6,8 +6,7 @@
   background-size: cover;
 }
 .reservation__title {
-  display: flex;
-  justify-content: center;
+  text-align: center;
   padding-top: 100px;
   padding-bottom: 80px;
   font-style: normal;
@@ -20,41 +19,5 @@
 .reservation__form {
   margin: 0 auto;
   padding-bottom: 120px;
-  align-items: center;
 }
 
-.form__fieldset {
-  border-style: none;
-}
-
-.reservation__checkbox {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 12px;
-  margin-top: 32px;
-  padding-bottom: 120px;
-  max-width: none;
-}
-
-.reservation__checkbox {
-  min-width: 20px;
-  width: 20px;
-  height: 20px;
-  margin: 0;
-  background-image: url("../images/check.svg");
-  background-size: 80%;
-  background-repeat: no-repeat;
-  background-position: center;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-}
-
-.reservation__checkbox:checked {
-  background-image: url("../images/check.svg");
-  background-color: #1878dc;
-}
-
-.reservation__form-checkbox {
-  white-space: nowrap;
-}

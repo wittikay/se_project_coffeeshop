@@ -14,6 +14,7 @@
   text-decoration: none;
   color: #000;
   transition: opacity 0.3s ease-in-out;
+  font__weight: 500;
 }
 
 .nav__link:hover {
@@ -22,7 +23,7 @@
 
 .nav__logo {
   padding-top: 30px;
-  padding-right: 30px;
-  min-width: 105px;
-  min-height: 39px;
+  padding-left: 30px;
+  width: 105px;
+  height: 39px;
 }
