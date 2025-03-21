@@ -1,3 +1,6 @@
+
+Live page: https://wittikay.github.io/se_project_coffeeshop/
+
 # Recent Updates:
 ###
 * Updated README.md image to reflect current page state.
